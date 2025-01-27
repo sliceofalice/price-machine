@@ -1,4 +1,5 @@
 import { Component, NgModule } from "@angular/core";
+import { OrderListModule } from "primeng/orderlist";
 
 @Component({
   selector: "app-price-page",
@@ -11,6 +12,6 @@ export class PricePageComponent {
 @NgModule({
   declarations: [PricePageComponent],
   exports: [PricePageComponent],
-  imports: []
+  imports: [OrderListModule]
 })
 export class PricePageModule {}

@@ -1,0 +1,29 @@
+@import './colors.scss';
+
+body {
+  background-color: $off-white;
+  font-family: 'Alice', sans-serif;
+  color: $black;
+}
+
+header {
+  background-color: $gray;
+  width: 1400px;
+  height: 150px;
+}
+
+.content {
+  background-color: $yellow;
+  box-shadow: 0 0 4px 5px $gray;
+
+  width: 1400px;
+  height: 800px;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+
+
+
